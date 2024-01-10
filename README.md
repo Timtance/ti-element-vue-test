@@ -197,8 +197,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## TiElement
 
-- TiSearch Readme.md [Chinese](./readme/README_CN.md#tisearch) | [English](./readme/README_EN.md#tisearch)
-- TiTable Readme.md [Chinese](./readme/README_CN.md#titable) | [English](./readme/README_EN.md#titable)
+- TiSearch Readme.md [Chinese](https://github.com/Timtance/ti-element-vue-test/blob/main/readme/README_CN.md#tisearch) | [English](https://github.com/Timtance/ti-element-vue-test/blob/main/readme/README_EN.md#tisearch)
+- TiTable Readme.md [Chinese](https://github.com/Timtance/ti-element-vue-test/blob/main/readme/README_CN.md#titable) | [English](https://github.com/Timtance/ti-element-vue-test/blob/main/readme/README_EN.md#titable)
 
 
 ## Development
