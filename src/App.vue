@@ -24,13 +24,19 @@
           <li id="A1" style="list-style: none; border: 1px solid #3fb41f; background-color: rgb(63 180 31 / 15%); border-radius: 5px; height: 30px; line-height: 30px; margin: 5px; color: #3fb41f;">
             模块A
           </li>
-          <li id="B1" style="list-style: none; border: 1px solid #dfdddc; background-color: rgb(255 255 255 / 50%); border-radius: 5px; height: 30px; line-height: 30px; margin: 5px; color: #787777;">
-            <slot>模块B</slot>
+          <li id="B1" style="list-style: none; border: 1px solid #dfdddc; background-color: rgb(255 255 255 / 50%); border-radius: 5px; height: auto; line-height: 30px; margin: 5px; color: #787777;">
+            <!-- <template slot-name="value"><span>title</span><div>模块B</div></template>
+            <div>{{templateSpan}}</div> -->
+            <ul style="display: flex; list-style: none; justify-content: space-around; padding: 0;">
+              <li><span data-key="value" style="display: block; width: 70px;">{{ templateSpan }}</span></li>
+              <li><span data-key="state">..</span></li>
+            </ul>
+            <div data-key="context">{{ templateSpan }}</div>
           </li>
-          <li id="C1" style="list-style: none; border: 1px solid #dfdddc; background-color: rgb(255 255 255 / 50%); border-radius: 5px; height: 30px; line-height: 30px; margin: 5px; color: #787777;">
+          <li id="C1" style="list-style: none; border: 1px solid #dfdddc; background-color: rgb(255 255 255 / 50%); border-radius: 5px; height: auto; line-height: 30px; margin: 5px; color: #787777;">
               <!-- <div slot-name="value" id="spanValue">{{ templateSpan }}</div> -->
               <!-- <my-component slot-name="value" id="spanValue"></my-component> -->
-              <component :is="MyComponent" slot-name="value"></component>
+              <component :is="MyComponent" slot-name="head"></component>
           </li>
         </ul>
         <div id="mapFlow" @click="onEvent" @created="onEvent" @selected="onEvent" @change="onEvent" style="position: relative; flex: 1; background: #fafafa;"></div>
@@ -104,12 +110,14 @@ const tuiFlowChartInput = () => {
     }else{
       data = [
         {
+          "sourceId":"B1",
           id: "12341234",
           x: 100,
           y: 230,
           w: 250,
-          h: 40,
-          value: "12341234"
+          value: "12341234",
+          context: "111",
+          state: "OK"
         }
       ];
     }
