@@ -8712,10 +8712,10 @@ ti-element-vue@^0.1.21:
     vue "^3.0.0"
     vue-class-component "^8.0.0-0"
 
-ti-flowchart@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/ti-flowchart/-/ti-flowchart-0.3.1.tgz#55e975fe0fb538aab58ba0880eac4bdb4c2dd369"
-  integrity sha512-hwrvvnu+McvCzdmiq6GJSsXjMvuD6K9RfFqhoS7778/EwqWkY+/1vQLO1kU5XXxMT6tD6DD6hkbDKL4Ju0TA1Q==
+ti-flowchart@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/ti-flowchart/-/ti-flowchart-0.4.1.tgz#8d3ab2ac8bea518be4b9a27899cb60dca402b614"
+  integrity sha512-r5v4x3F7u8LJ9FLdlCqWC2izeaShFeKvFQy3DfA9r2eaQRygRkCTgZxCC/h4J3vL6IH6eVap/6L8JVKlzvfNcA==
 
 ti-zoom@^1.2.3:
   version "1.2.3"

@@ -23,7 +23,7 @@
       
       <div style=" border-radius: 5px; border: solid 1px #f0efee; height: 300px; display: flex; margin-top: 20px;">
         <ul id="ulBox" style="width: 150px; list-style: none; padding: 0; margin: 0; background: #ebf0fc; padding: 5px; border: solid 1px #ebf0fc; border-radius: 5px;">
-          <li id="A1" style="list-style: none; border: 1px solid #3fb41f; background-color: rgb(63 180 31 / 15%); border-radius: 5px; height: 30px; line-height: 30px; margin: 5px; color: #3fb41f;">
+          <li id="A1" class="tui" style="list-style: none; border: 1px solid #3fb41f; background-color: rgb(63 180 31 / 15%); border-radius: 5px; height: 30px; line-height: 30px; margin: 5px; color: #3fb41f;">
             模块A
           </li>
           <li id="B1" style="list-style: none; border: 1px solid #dfdddc; background-color: rgb(255 255 255 / 50%); border-radius: 5px; height: auto; line-height: 30px; margin: 5px; color: #787777;">
@@ -53,8 +53,8 @@ import { nextTick, onMounted, reactive, ref} from 'vue';
 import { formConfig, tableConfig } from './config'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import MyComponent from './components/templateInner.vue';
-// import './components/mapFlow.js';
-import 'ti-flowchart/lib/ti-flowchart.umd.js';
+import './components/mapFlow.js';
+// import 'ti-flowchart/lib/ti-flowchart.umd.js';
 // import './components/ti-flowchart.umd2.js';
 // import 'ti-zoom/lib/ti-zoom.umd.js'; // 导入 ti-zoom 库
 
