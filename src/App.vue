@@ -53,9 +53,7 @@ import { nextTick, onMounted, reactive, ref} from 'vue';
 import { formConfig, tableConfig } from './config'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import MyComponent from './components/templateInner.vue';
-import './components/mapFlow.js';
-// import 'ti-flowchart/lib/ti-flowchart.umd.js';
-// import './components/ti-flowchart.umd2.js';
+import 'ti-flowchart/lib/ti-flowchart.umd.js';
 // import 'ti-zoom/lib/ti-zoom.umd.js'; // 导入 ti-zoom 库
 
 const templateSpan = ref('Test'); 
